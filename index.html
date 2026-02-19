@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Помощь детям — пожертвования через фонд</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; margin:0; background:#0b1220; color:#e9eefc; }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 28px 18px 60px; }
+    .card { background:#121b2f; border:1px solid #233154; border-radius:16px; padding:18px; }
+    .grid { display:grid; gap:16px; grid-template-columns: 1.2fr 0.8fr; }
+    @media (max-width: 860px){ .grid{ grid-template-columns:1fr; } }
+    h1 { margin: 0 0 10px; font-size: 34px; line-height:1.15; }
+    p { margin: 10px 0; color:#cfd8f7; }
+    .btns { display:flex; gap:10px; flex-wrap:wrap; margin-top:12px; }
+    .btn {
+      display:inline-block; padding:12px 14px; border-radius:12px; text-decoration:none;
+      border:1px solid #2b3d6e; background:#1a2a52; color:#e9eefc; font-weight:600;
+    }
+    .btn.primary { background:#2b63ff; border-color:#2b63ff; }
+    .small { font-size: 13px; color:#aeb9e6; }
+    ul { margin: 10px 0 0 18px; color:#cfd8f7; }
+    .badge { display:inline-block; padding:6px 10px; border:1px solid #2b3d6e; border-radius:999px; font-size:12px; color:#cfd8f7; }
+    .footer { margin-top:16px; }
+    .hr { height:1px; background:#233154; margin:16px 0; }
+    a { color:#9fb7ff; }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="badge">Сайт-перенаправление на официальную благотворительность</div>
+    <h1>Пожертвования на помощь детям с тяжёлыми заболеваниями</h1>
+    <p>Этот сайт <b>не принимает деньги</b> и <b>не хранит данные карт</b>. Кнопки ниже ведут на официальную страницу пожертвований выбранного фонда.</p>
+
+    <div class="grid">
+      <div class="card">
+        <h2 style="margin:0 0 10px;">Куда идут деньги</h2>
+        <p>
+          Фонд: <b>ВСТАВЬ НАЗВАНИЕ ФОНДА</b><br/>
+          Официальная страница пожертвований: <a href="https://example.org/donate" target="_blank" rel="noopener">https://example.org/donate</a>
+        </p>
+
+        <div class="btns">
+          <a class="btn primary" href="https://example.org/donate" target="_blank" rel="noopener">Пожертвовать</a>
+          <a class="btn" href="https://example.org/financial-reports" target="_blank" rel="noopener">Отчёты фонда</a>
+          <a class="btn" href="https://example.org/about" target="_blank" rel="noopener">О фонде</a>
+        </div>
+
+        <div class="hr"></div>
+        <h3 style="margin:0 0 8px;">Почему это безопаснее</h3>
+        <ul>
+          <li>Платёж обрабатывает фонд/платёжная платформа, а не этот сайт.</li>
+          <li>Можно проверить отчётность и регистрацию организации.</li>
+          <li>Никаких “переводов на карту” и сомнительных посредников.</li>
+        </ul>
+
+        <p class="small footer">
+          Если ты хочешь помочь конкретной стране/программе — выбери фонд с целевыми страницами (например, медицинская помощь детям).
+        </p>
+      </div>
+
+      <div class="card">
+        <h2 style="margin:0 0 10px;">Прозрачность</h2>
+        <p class="small">Кто сделал сайт: <b>ТВОЁ ИМЯ / ник</b> (не фонд).<br/>
+          Контакт: <b>почта/телеграм</b> (по желанию).</p>
+
+        <div class="hr"></div>
+        <h3 style="margin:0 0 8px;">Важно</h3>
+        <p class="small">
+          Не обещай “100% уйдёт детям” или “вылечим рак за донаты” — это неправда и юридически опасно.
+          Пиши нейтрально: “поддержка программ медицинской помощи”.
+        </p>
+
+        <div class="hr"></div>
+        <h3 style="margin:0 0 8px;">Если хочешь принимать донаты на сайте</h3>
+        <p class="small">
+          Тогда нужна регистрация юрлица/НКО, политика конфиденциальности, условия, налоговые моменты и платёжный провайдер.
+          Для школьного/учебного проекта лучше делать вариант-перенаправление.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
